@@ -10,7 +10,7 @@ namespace Laboratorio13.Models
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LAB1504-11\\SQLEXPRESS; " +
+            optionsBuilder.UseSqlServer("Server=LAB1504-17\\SQLEXPRESS; " +
                 "Initial Catalog=DataBase; Integrated Security=True;trustservercertificate=True");
         }
 
